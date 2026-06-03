@@ -1,15 +1,30 @@
 {
   "id": "pf2e-character-gallery-extender",
   "title": "Pathfinder Character Gallery Extender",
+  "description": "<p>Loads gallery datasheets from disabled modules and from other systems.</p>",
   "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Supe",
+      "flags": {}
+    }
+  ],
   "compatibility": {
     "minimum": "14",
     "verified": "14"
   },
-  "description": "<p>Loads gallery datasheets from disabled modules and from other systems.</p>",
-  "flags": {
-    "canUpload": true
+  "relationships": {
+    "modules": [
+      {
+        "id": "pf2e-tokens-characters",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
   },
   "action": "manageModule",
-  "esmodules": ["index.mjs"]
+  "esmodules": ["index.mjs"],
+  "url": "https://github.com/CarlosFdez/pf2e-character-gallery-extender",
+  "manifest": "https://github.com/CarlosFdez/pf2e-character-gallery-extender/releases/latest/download/module.json",
+  "download": "https://github.com/CarlosFdez/pf2e-character-gallery-extender/releases/download/v1.0.0/module.zip"
 }
