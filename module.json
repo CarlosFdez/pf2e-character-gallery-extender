@@ -1,0 +1,15 @@
+{
+  "id": "pf2e-character-gallery-extender",
+  "title": "Pathfinder Character Gallery Extender",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>Loads gallery datasheets from disabled modules and from other systems.</p>",
+  "flags": {
+    "canUpload": true
+  },
+  "action": "manageModule",
+  "esmodules": ["index.mjs"]
+}
